@@ -1,0 +1,101 @@
+apt update && apt upgrade -y
+
+apt install curl socat -y
+
+curl https://get.acme.sh | sh
+
+~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
+
+***********jaye xxx@xxx.com  email mizarim************
+
+~/.acme.sh/acme.sh --register-account -m 6234113@gmail.com
+
+**********jaye host bayad damian bzarim********
+
+~/.acme.sh/acme.sh --issue -d go6.allahyar.ml --standalone
+
+**********jaye host bayad damian bzarim********
+
+~/.acme.sh/acme.sh --installcert -d go6.allahyar.ml --key-file /root/private.key --fullchain-file /root/cert.crt
+
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+
+x-ui update
+
+y
+
+y
+
+user:
+
+pasword:
+
+port:
+
+--------------------------------------------------------------------
+
+Commands for Solve Google ReCAPTCHA
+
+curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
+
+Steps Answer: 
+
+2
+12
+y
+y
+1
+_____________________________________________________________________
+************nasb bbr***************
+
+x-ui
+15
+enter
+
+_____________________________________________________________________
+
+/root/cert.crt
+
+/root/private.key
+
+_____________________________________________________________________
+passwd root
+
+_________________________________________________________________________
+x-ui restart
+______________________________________________________________________
+************taghir port***********
+
+1. مشاهده شماره پورت فعلي
+
+
+netstat -tulnp | grep ssh
+ 
+2. پيدا کردن فايلي که در آن شماره پورت را ميتوان عوض کرد
+
+
+find / -name "sshd_config" 2>/dev/null
+
+ 
+3. ويرايش شماره پورت مورد نظر در فايل پيکربندي
+
+
+nano /etc/ssh/sshd_config
+
+#port 22
+
+رو  بجاي 22 ميذاريم 400 و #رو پاک ميکنيم
+و بعد
+
+ctrl o 
+ 
+enter
+
+ctrl x
+
+رو ميزنيم
+ 
+4.  ubuntu ريستارت کردن سرويس
+
+
+sudo systemctl restart ssh.service
